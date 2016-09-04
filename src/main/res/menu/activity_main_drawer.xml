@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Inicio"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/Status"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Status" />
+        <item
+            android:id="@+id/Nuevo_numero"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Nuevo Dispositivo" />
+        <item
+            android:id="@+id/Seleccionar_numero"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Seleccionar Dispositivo" />
+
+        <item
+            android:id="@+id/nav_borrar"
+            android:icon="@android:drawable/ic_delete"
+            android:title="Borrar" />
+        <item
+            android:id="@+id/set_desfault"
+            android:icon="@android:drawable/ic_lock_lock"
+            android:title="Set como default" />
+
+        <item
+            android:id="@+id/alertas"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Alertas" />
+        <item
+            android:id="@+id/mapa"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Mapa" />
+    </group>
+
+    <item android:title="Configura">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_manage"
+
+                android:title="Configuracion" />
+
+        </menu>
+    </item>
+
+</menu>
