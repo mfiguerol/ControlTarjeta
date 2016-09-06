@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.botsydroid.controltarjeta.Principal"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sensor:"
+        android:id="@+id/textView8" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Infrarrojo"
+                android:id="@+id/btInfra"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/selector"
+                android:gravity="left"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Puerta"
+                android:id="@+id/button3"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/selector"
+                android:gravity="left"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Luz"
+                android:id="@+id/button4"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/selector"
+                android:gravity="left"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button5"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/selector"
+                android:gravity="left"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/selector"
+                android:gravity="left"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
