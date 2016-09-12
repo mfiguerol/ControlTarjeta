@@ -1,0 +1,13 @@
+<application>
+  <component name="ConsoleFoldingSettings">
+    <option name="addedPositive">
+      <list>
+        <option value="09-12 22:34:23.850 8140-11719/com.botsydroid.controltarjeta W/Google Maps Android API: GLHudOverlay deprecated; draw(): no-op" />
+        <option value="09-12 22:34:24.334 8140-11719/com.botsydroid.controltarjeta W/Google Maps Android API: GLHudOverlay deprecated; draw(): no-op" />
+        <option value="09-12 22:34:24.544 8140-11719/com.botsydroid.controltarjeta W/Google Maps Android API: GLHudOverlay deprecated; draw(): no-op" />
+        <option value="W/Google Maps Android API: GLHudOverlay deprecated; draw(): no-op" />
+        <option value="GLHudOverlay deprecated; getDrawOrder(): no-op, return DrawOrder.HEADS_UP_DISPLAY" />
+      </list>
+    </option>
+  </component>
+</application>
